@@ -1,0 +1,28 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style
+   style
+      include ../static/style.css
+      include ../static/classinfostyle.css
+
+block content 
+        div#container
+            h1 Our Class Information
+                div#container-main
+                        div#container-left
+                             h6 THE COURSE INCLUDES <br>
+                                p      |-Personalized need-based training<br>
+                                       |-Personalized need-based training<br>
+                                       |-Training in real singing enviornment<br>
+                                       |-Stage performances with a live band
+                        div#container-left
+                             h6 Benefits-
+                                p   |-Course Certification  StageWorks Academy
+                                    |-Assistance in auditions & casting
+                                    |-Students are promoted on YouTube 
+                                    |-Guest lectures from leading expert
+                                    |-Students will get CD’s of their recorded track
+        
+            

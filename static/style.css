@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin:3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+}
+#logo img{
+    height:90px;
+}
+#navbar{
+    font-family: 'Lobster', cursive;
+    background-color: black;
+}
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a:hover{
+         background-color: gray;
+         color: black;
+}
+
+#navbar ul a{
+    padding: 16px 17px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#introSection{
+    height: 500px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url("/static/p1.jpg") no-repeat center center / cover;
+}
+.smp{
+    margin-top: 4px;
+    padding:5px;
+    font-size: 50px;;
+}
+
+
+#missionSection{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    height: 400px;
+    background-color: brown;
+
+}
+.card{
+        width: 33%;
+        display: inline-block;
+        width: 30;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 6px 22px;
+        height: 320px;
+        width: 24%;
+        
+    
+}
+.card-box img{
+    margin: 19px;
+    width: 10rem;
+    border-radius:31px;
+
+}
+
+#sponsorsSection{
+    font-family: 'Akaya Kanadaka', cursive;
+    height: 400px;
+    background-color: thistle ;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+#Sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Sponsors img{
+    border-radius: 30px;
+    margin: 3px;
+    margin-top: 20px;
+    width: 16rem;
+}
+
+#footer{
+    font-family: 'Akaya Kanadaka', cursive;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

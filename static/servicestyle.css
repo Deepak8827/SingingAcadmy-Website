@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+h1{text-align: center;
+    background-color: slategrey;
+    color:tomato
+
+}
+#main{
+    background: url("/static/ss1.jpg") no-repeat center center / cover;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    background-color: brown;
+    display:inline-block
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}

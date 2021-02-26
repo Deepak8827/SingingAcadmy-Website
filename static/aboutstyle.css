@@ -1,0 +1,14 @@
+
+
+#container{
+    background: url("/static/aa3.jpg") no-repeat center center / cover;
+}
+h1{
+    text-align: center;
+    background-color: gray;
+
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px
+}

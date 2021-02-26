@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul  
+             div#logo 
+                img(src="/static/m1.png")
+                | DDA
+             li #[a(href="/") Home ]
+             li #[a(href="/") About ]
+             li #[a(href="/") Services] 
+             li #[a(href="/") Class Info] 
+             li #[a(href="/") Contact Us]
+    
+    section#introSection 
+        <div>Welcome to Deepak's Singing Acadmy</div>
+        <div class="smp">Eat Sleep Sings Repeat</div>
+    
+    section#missionSection
+        h2 Our Mission
+        div.card
+           h3 Dance Perfection
+            div.card-box 
+                img(src="/static/m2.png")
+            div.card-content
+               p This is the best dance Acadmy
+        div.card 
+           h3 Dance the way you like
+            div.card-box
+                img(src="/static/m4.png")
+            div.card-content
+               p This is the best dance Acadmy
+
+        div.card 
+           h3  Expert Teaching
+            div.card-box
+                img(src="/static/m3.png")
+            div.card-content 
+                p  This is the best dance Acadmy      
+
+
+    section#sponsorsSection
+        h2 Our sponsors
+        div#Sponsors 
+           img(src="/static/s1.png" alt="sponsores image" class="spImage")
+           img(src="/static/s2.png" alt="sponsores image" class="spImage")
+           img(src="/static/s3.png" alt="sponsores image" class="spImage")
+           img(src="/static/s4.png" alt="sponsores image" class="spImage")
+    
+    footer#footer 
+        | our footer here
+    
+    script
+      include ../static/index.js

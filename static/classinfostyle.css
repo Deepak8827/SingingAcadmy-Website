@@ -1,0 +1,26 @@
+
+#container{
+    height: 600px;
+    background: url("/static/aaa.jpg") no-repeat center center / cover;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-left{
+    width: 300px;
+    height: 410px;
+    margin: 69px 41px;
+    border: 2px solid black;
+    border-radius:7px;
+    font-family: 'Roboto', sans-serif;
+}
+
